@@ -1,3 +1,17 @@
 What happens when you initialize a repository? Why do you need to do it?
+NOTES:
+-git init
+-git status
+-git add
+-git commit
+-git diff
+-git log
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+...222
+NOTES:
+-git diff repoID1 repoID2 # in repo
+-git diff # working vs staged
+-git diff --staged # staged vs repo
+-git reset --hard # discards changes in working copy and staging BE CAREFUL, cannot get changes back

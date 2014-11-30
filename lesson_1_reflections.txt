@@ -1,0 +1,4 @@
+
+
+NOTES: 
+git checkout master # when you checked out an old commit. To fix that, run the command
