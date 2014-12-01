@@ -33,3 +33,16 @@ git branch [new_branch_name]
 git checkout [new_branch_name]
 
 How do the diagrams help you visualize the branch structure?
+
+Combining NOTES:
+if you delete a branch before merge you delete all of its commits BUT if you merge than delete, you are just deleting its label
+after merge, commits are shown in order of commits
+
+Merge: 
+-git merge master coins
+
+*git diff can be difficult since parent commit are not next to commits because of merge SO use: git show
+
+-git branch -d coins
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
