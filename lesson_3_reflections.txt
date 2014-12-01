@@ -28,3 +28,29 @@ NOTES:
 git clone [url]
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+NOTES:
+to help with conflicting changes or when you go offline (to git log and git diff):
+Sarah writes that you should run git fetch branch_name or git fetch master by mistake. Instead, you should run git fetch remote_name, which will fetch all branches from the given remote, or git fetch with no arguments, which fetches all branches from the origin remote.
+
+-git branch -a             # a stands for all
+ex:
+$ git branch -a
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/master
+
+If you run git log origin/master before merge you wont see local or remote changes yet until you merge  
+
+git fetch then git log origin/master does show remote changes
+Your branch and 'origin/master' have diverged,
+
+git merge master origin/master
+
+***** same as git fetch and then git merge:
+git pull origin master
+
+Fast-forward merges
+is if branch you merge into is an ancestor of the branch you are merging from otherwise you would have to do a merge commit
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
