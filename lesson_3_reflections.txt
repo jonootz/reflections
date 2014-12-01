@@ -1,0 +1,13 @@
+NOTES:
+git remote
+git remote add origin (example: git remote add origin https://github.com/jonootz/reflections.git)
+if you run git remote again than origin is listed
+$ git remote -v
+origin  https://github.com/jonootz/reflections.git (fetch
+origin  https://github.com/jonootz/reflections.git (push)
+
+git push origin master
+$ git push origin master
+Username for 'https://github.com': jo
+Password for 'https://jonootz@github.
+
